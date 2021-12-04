@@ -1,0 +1,114 @@
+// delete the following line if no text is used
+// edit the line if you wanna use other fonts
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+
+// use only the available space inside the 400x400 frame
+* {
+	box-sizing: border-box;
+}
+
+.frame {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 400px;
+	height: 400px;
+	margin-top: -200px;
+	margin-left: -200px;
+	border-radius: 9px;
+	box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+	background: linear-gradient(to top right, #43389f 0%, #4ec6ca 100%);
+	color: #333;
+	font-family: "Open Sans", Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.number {
+	position: relative;
+	top: -40px;
+	width: 200px;
+	height: 100px;
+}
+
+.number .one-one {
+	position: absolute;
+	top: 0px;
+	left: -13px;
+	width: 24px;
+	height: 40px;
+	background: #fff;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	transform: rotate(50deg);
+}
+
+.number .one-two {
+	position: absolute;
+	z-index: 20;
+	top: 0px;
+	left: 0px;
+	width: 24px;
+	height: 100px;
+	background: #fff;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.2);
+}
+
+.number .zero-one {
+  box-sizing: border-box;
+	position: absolute;
+	z-index: 18;
+	top: 0px;
+	left: 14px;
+	height: 100px;
+	width: 100px;
+	border: 24px solid #fff;
+	border-radius: 50%;
+	box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.2);
+}
+
+.number .zero-two {
+	position: absolute;
+  box-sizing: border-box;
+	z-index: 13;
+	top: 0px;
+	left: 100px;
+	height: 100px;
+	width: 100px;
+	border: 24px solid #fff;
+	border-radius: 50%;
+	box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.2);
+}
+
+.big {
+	position: absolute;
+	top: 50px;
+	left: -7px;
+	text-transform: uppercase;
+	font-size: 5em;
+	font-weight: bold;
+	color: #fff;
+	display: block;
+}
+
+.small {
+	position: absolute;
+	top: 130px;
+	left: -2px;
+	text-transform: uppercase;
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #fff;
+	display: block;
+	letter-spacing: 0.2em;
+}

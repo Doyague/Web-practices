@@ -1,0 +1,62 @@
+body {
+  background-color: lightgrey;  
+  margin: 0 0 2em;
+  font-family: sans-serif;
+  text-align: justify;
+  position: relative;
+  top: -21px;
+}
+
+h1 {
+  display: block;
+  background-color: black;
+  color: white;
+  text-align: right;
+  padding: 15px 0 15px 0;
+}
+
+p {
+  margin: 3% 20%;
+}
+
+h2 {
+  margin: 0 20% 10px;
+}
+
+.fecha {
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 5px;
+  border-top: 3px solid black;
+  padding-top: 30px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+time {
+  background-color: grey;
+  padding: 5px;
+ }
+
+h2 {
+  margin-top: 0;
+  border-bottom: 5px solid white;
+}
+
+q {
+  font-family: serif;
+  font-size: 1.5rem;
+  border-bottom: 1px dashed red;
+  
+}
+
+span.cargo {
+  color: red;
+  background-color: white;
+}
+
+span.lugar {
+  color: blue;
+}

@@ -1,0 +1,94 @@
+@font-face {
+  font-family: "SigmarOne", cursive;
+  src: url("https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap");
+}
+
+
+body {
+  font-family: sans-serif;
+  margin: 30px 50px;  
+  background-color: hsl(210, 70%, 95%);
+  text-align: justify;
+}
+
+h1 {
+  font-family: "SigmarOne";
+  font-size: 3rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+strong {
+  font-size: 1.3rem;
+  font-style: oblique;
+  text-decoration: underline;
+}
+
+span {
+  color: red;
+  background-color: white; 
+  font-weight: bold;
+}
+
+time {
+  color: blue;
+}
+
+h2 {
+  text-align: center;
+  font-family: "SigmarOne";
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-shadow: 2px 2px black;
+  color: hsl(210, 30%, 60%);
+   
+}
+img{
+  padding: 5px;
+  border: 5px solid hsl(210, 30%, 60%);
+  
+}
+
+img.izquierda {
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 5%;
+  
+}
+
+hr {
+  clear: both;
+  width: 60%;
+  height: 10px;
+  background-color: hsl(210, 30%, 60%);
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 40px auto;
+  
+}
+
+
+img.derecha {
+  float: right;
+  margin-left: 10px;
+  margin-bottom: 5%;
+ }
+
+
+.izq {
+  float: left;
+  width: 33%;
+  }
+
+.centro {
+  text-align: center;
+}
+
+.der {
+  padding-top: 15px;
+}
+
+address {
+  text-align: right;
+}

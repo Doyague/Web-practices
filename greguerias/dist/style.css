@@ -1,0 +1,38 @@
+body {
+  background-color: hsl(145, 50%, 35%);
+  font-family: sans-serif;
+  
+}
+
+h1 {
+  font-size: 300%;
+  text-transform: capitalize;
+}
+
+p {
+    font-size: 150%;
+}
+
+.infancia {
+  font-family: serif;
+  font-style: oblique;
+  color: white;
+}
+
+.animales {
+  font-family: sans-serif;
+  color: hsl(35, 100%, 85%);
+  
+}
+
+.literatura {
+  font-family: monospace;
+  color: darkorange;
+  font-size: 200%;
+}
+
+.numeros {
+  font-family: cursive;
+  color: hsl(345, 80%, 50%);
+   
+}
