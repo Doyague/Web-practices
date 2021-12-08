@@ -1,0 +1,90 @@
+@font-face {
+  font-family: "righteous";
+  src: url("../font/righteous.woff");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #0bdcd1;
+  font-family: "righteous";
+  font-size: 2vw;
+  align-content: center;
+
+}
+
+h1  {
+  text-align: center;
+  margin-top: 40px;
+}
+
+h1>i  {
+  color: #ff1c1c;
+  padding: 0 20px;
+
+}
+
+.contenedor {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5vw;
+  text-align: center;
+
+}
+
+.forecast{
+  display: inline-block;
+  overflow: hidden;
+  width: 15%;
+  font-size: 3vw;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: white;
+  border: 5px solid black;
+  border-radius: 30px 30px 0 0;
+
+
+}
+
+p>i {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.forecast p {
+  margin: 0;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.dia {
+background-color: #989797;
+border-radius: 25px 25px 0 0;
+}
+
+.max.alta {
+  background-color: red;
+}
+
+.min.alta {
+  background-color: #847efb;
+}
+
+.max.media {
+  background-color: #ff3e3e;
+}
+
+.max.baja {
+  background-color: #ff7c7c;
+}
+
+.min.media {
+  background-color: #0f16fb;
+}
+
+.min.baja {
+  background-color: #0006bf;
+}

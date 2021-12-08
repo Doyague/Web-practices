@@ -1,0 +1,103 @@
+@font-face {
+  font-family: "Cabin Sketch";
+  src: url("cabin-sketch.woff");
+}
+
+@font-face {
+  font-family: "Gabriela";
+  src: url("gabriela.woff");
+
+}
+
+body  {
+ font-family: sans-serif;
+ text-align: justify;
+ margin: auto;
+ background-color: hsl(202.9, 59%, 48.8%);
+
+}
+
+h1  {
+  font-size: 4rem;
+  font-family: "Cabin Sketch";
+  text-align: center;
+  text-transform: uppercase;
+}
+
+article {
+  margin: 10px 50px;
+
+}
+
+.brown {
+  border: 3px solid brown;
+  border-radius: 20px;
+  border-top-left-radius: 0px;
+
+}
+
+h2  {
+  font-family: "Gabriela";
+  padding-left: 7px;
+}
+
+.brown h2 {
+  background-color: #bb4f10;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 3px;
+  padding-bottom: 5px;
+  border-top-right-radius: 16px;
+  font-size: 2rem;
+  color: white;
+
+}
+
+.brown div:nth-of-type(1)  {
+  background-color: hsl(25, 73%, 48%);
+  padding: 3px 0 3px 10px;
+
+}
+
+p {
+  margin: 0;
+  line-height: 1.3rem;
+}
+
+.brown div:nth-of-type(2)  {
+  background-color: hsl(25, 100%, 83%);
+  padding: 3px 20px;
+  border-radius: 0 0 16px 16px;
+
+}
+
+.purple {
+  border: 3px solid DeepPink;
+  border-radius: 20px 0 20px 0;
+
+}
+
+.purple h2 {
+  background-color: hsl(304, 100%, 50%);
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 3px;
+  padding-bottom: 5px;
+  border-top-left-radius: 16px;
+  font-size: 2rem;
+  color: white;
+
+}
+
+.purple div:nth-of-type(1)  {
+  background-color: hsl(311, 86%, 72%);
+  padding: 3px 0 3px 10px;
+
+}
+
+.purple div:nth-of-type(2)  {
+  background-color: hsl(322, 100%, 87%);
+  padding: 3px 20px;
+  border-radius: 0 0 16px 0;
+
+}

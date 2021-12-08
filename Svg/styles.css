@@ -1,0 +1,21 @@
+
+body  {
+  background-color: MediumTurquoise;
+}
+
+h1  {
+  font-family: "Merriweather";
+  font-size: 4rem;
+}
+
+h2  {
+  font-family: "MerriWeather", sans-serif;
+  font-size: 2rem;
+
+}
+svg {
+  background-color: lightgrey;
+  border: 5px solid darkGrey;
+  margin-right: 3%;
+  margin-bottom: 40px;
+}
