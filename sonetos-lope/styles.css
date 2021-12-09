@@ -1,6 +1,6 @@
 
 body {
-  background: url("fondos/corazon-1.svg") repeat-y top left, url("fondos/corazon-2.svg") repeat-y top right;
+  background: url("fondos/corazon-1.svg") repeat-y top left, url("fondos/corazon-2.svg"); repeat-y top right;
   background-size: 150px;
   background-color: #ffd1f1;
   font-family: sans-serif;
