@@ -156,10 +156,22 @@ a:hover{
 @media (min-width: 992px) and (max-width: 1199px) {
 
 
+
   .columna {
     width: 50%;
     margin-right: auto;
     margin-left: auto;
+  }
+
+  .columna.col-md-12 {
+  width: 100%;
+  }
+
+  .col-md-12>div.previa-big {
+    width: 800px;
+    height: 400px;
+    margin: 20px auto;
+
   }
 
   .previa {
