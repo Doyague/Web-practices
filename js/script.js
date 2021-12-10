@@ -2,7 +2,7 @@
 
 var wp = {}; // namespace "Web-practices"
 
-var homeHtml = "../rsc/snippets/home-snippet.html";
+var homeHtml = "rsc/snippets/home-snippet.html";
 
 // Convenience function for inserting innerHTML for 'selector'
 var insertHtml = function (selector, html) {
@@ -13,7 +13,7 @@ var insertHtml = function (selector, html) {
 // Show loading icon inside element identified by 'selector'.
 var showLoading = function (selector) {
   var html = "<div class='text-center'>";
-  html += "<img src='../rsc/pictures/ajax-loader.gif'></div>"; //***ajaxload.info gifs de 'loading'
+  html += "<img src='rsc/pictures/ajax-loader.gif'></div>"; //***ajaxload.info gifs de 'loading'
   insertHtml(selector, html);
 };
 
