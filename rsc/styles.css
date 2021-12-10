@@ -118,7 +118,7 @@ a:hover{
 
 
 .previa-big {
-  width: 400px;
+  width: 300px;
   height: 400px;
   margin: 60px auto;
 
@@ -164,12 +164,12 @@ a:hover{
   }
 
   .columna.col-md-12 {
-  width: 100%;
+    width: 100%;
   }
 
   .col-md-12>div.previa-big {
     width: 800px;
-    height: 400px;
+    height: 300px;
     margin: 20px auto;
 
   }
@@ -179,6 +179,13 @@ a:hover{
     margin: 60px auto;
     height: 229px;
   }
+
+  .previa-big {
+    width: 450px;
+    margin: 60px auto;
+    height: 229px;
+  }
+
 }
 
 /********** Small devices only **********/
@@ -190,10 +197,21 @@ a:hover{
     margin-left: auto;
   }
 
+  .columna.col-md-12 {
+    width: 100%;
+  }
+
   .previa {
     width: 296px;
     height: 170px;
     margin: 60px auto;
+  }
+
+  .col-md-12>div.previa-big {
+    width: 600px;
+    height: 300px;
+    margin: 20px auto;
+
   }
 }
 
@@ -207,6 +225,21 @@ a:hover{
     padding-bottom: 10px;
     padding-top: 5px;
     margin-top: 0;
+  }
+
+  .header h1 {
+    font-size: 3rem;
+    line-height: 5rem;
+    margin-left: 30px;
+  }
+
+  .header span {
+    padding: 10px;
+    font-size: 4.5rem;
+    text-decoration: 0.8px underline;
+    text-shadow: 3px 3px 10px #f5f903;
+    -webkit-text-stroke: 0.8px black;
+
   }
 
   .row {
@@ -228,21 +261,11 @@ a:hover{
     margin: 30px auto;
   }
 
-  .header h1 {
-    font-size: 3rem;
-    line-height: 5rem;
-    margin-left: 30px;
+  .previa-big {
+    width: 400px;
+    margin: 60px auto;
+    height: 229px;
   }
-
-  .header span {
-    padding: 10px;
-    font-size: 4.5rem;
-    text-decoration: 0.8px underline;
-    text-shadow: 3px 3px 10px #f5f903;
-    -webkit-text-stroke: 0.8px black;
-
-  }
-
 
 
 }
@@ -254,6 +277,13 @@ a:hover{
     height: 170px;
     margin: 30px auto;
   }
+
+  .previa-big {
+    width: 300px;
+    margin: 60px auto;
+    height: 350px;
+  }
+
   .header span {
     padding: 10px;
     font-size: 4rem;
