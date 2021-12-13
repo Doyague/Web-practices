@@ -67,6 +67,12 @@ main {
 
 }
 
+.text-center {
+color: white;
+text-shadow: 5px 5px 5px black;
+
+}
+
 .row {
   width: 90vw;
   margin: 10px auto;
@@ -98,8 +104,8 @@ a:hover{
 }
 
 .previa {
-  width: 300px;
-  height: 172px;
+  width: 25vw;
+  height: 20vw;
   margin: 60px auto;
 
 
@@ -220,9 +226,9 @@ address>a {
   }
 
   .previa {
-    width: 400px;
+    width: 300px;
+    height: 220px;
     margin: 60px auto;
-    height: 229px;
   }
 
 
@@ -254,7 +260,7 @@ address>a {
   }
 
   .previa {
-    width: 296px;
+    width: 230px;
     height: 170px;
     margin: 60px auto;
   }
@@ -308,7 +314,7 @@ address>a {
   }
 
   .previa {
-    width: 400px;
+    width: 40vw;
     height: 210px;
     margin: 30px auto;
   }
@@ -323,6 +329,7 @@ address>a {
 
 /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
 @media (max-width: 479px) {
+
 
   header  {
     padding-bottom: 15px;
@@ -353,6 +360,11 @@ address>a {
 
   }
 
+  .col-xxs-12 {
+    width: 100%;
+  }
+
+
   .text-center {
     margin-top: 30px;
   }
@@ -364,7 +376,7 @@ address>a {
 
 
   .previa {
-    width: 300px;
+    width: 60vw;
     height: 170px;
     margin: 30px auto;
   }
