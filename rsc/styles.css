@@ -1,5 +1,9 @@
-
+html {
+  height: 100%;
+}
+                /* html-height y body min-height para que body ocupe el alto de la pantalla*/
 body {
+  min-height: 100%;
   font-family: sans-serif;
   font-size: 2.3rem;
   /* background: url("../rsc/gotas.png") repeat; */
@@ -92,7 +96,7 @@ text-shadow: 5px 5px 5px black;
 }
 
 a {
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: bolder;
   text-decoration: none;
   color: white;
@@ -110,13 +114,6 @@ a:hover{
   color: red;
 }
 
-.previa {
-  /* width: 25vw; */
-  height: 20vw;
-  margin: 60px auto;
-
-
-}
 
 
 .previa-big {
@@ -136,7 +133,7 @@ a:hover{
 
 
 
-.previa, .previa-big, .previaItem {
+.previa-big, .previaItem {
   position: relative;
   border: 4px solid black;
   border-radius: 25px 0 25px 0;
@@ -145,7 +142,7 @@ a:hover{
 }
 
 
-.previa span, .previa-big span {
+.previa-big span {
   position:absolute;
   bottom: 0;
   width: 100%;
@@ -156,7 +153,7 @@ a:hover{
 
 }
 
-.previa img, .previa-big img, .previaItem img {
+.previa-big img, .previaItem img {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -165,9 +162,36 @@ a:hover{
 
 }
 
+.menu-item-description {
+  margin-top: 60px;
+  color: #cccccc;
+
+}
+
+
+.menu-item-title {
+  font-family: monospace;
+  font-size: 3.2rem;
+  font-weight: bolder;
+  -webkit-text-stroke: 1.5px #002bff;
+  text-decoration: underline overline;
+  text-decoration-color: #002bff;
+
+}
+
+.menu-item-price {
+  font-size: 5rem;
+  font-weight: bolder;
+  color: #33ff00;
+  -webkit-text-stroke: 3px black;
+
+}
+
 
 /****    END MAIN CONTENT     ****/
 /****     FOOTER            ****/
+
+
 
 footer {
   border-top: 2px solid #2b2b2b;
@@ -240,11 +264,12 @@ address>a {
 
   }
 
-  .previa {
-    width: 300px;
-    height: 220px;
-    margin: 60px auto;
+
+  .previaItem {
+    height: 15vw;
+
   }
+
 
 
 }
@@ -274,21 +299,21 @@ address>a {
     width: 100%;
   }
 
-  .previa {
-    width: 230px;
-    height: 170px;
-    margin: 60px auto;
-  }
-
-
   .col-md-12>div.previa-big {
     width: 80%;
     height: 22vw;
     margin: 20px auto;
 
   }
-}
 
+
+
+  .previaItem {
+    height: 25vw;
+  }
+
+
+}
 
 
 
@@ -328,14 +353,13 @@ address>a {
     margin-left: auto;
   }
 
-  .previa {
-    width: 40vw;
-    height: 210px;
-    margin: 30px auto;
-  }
-
   .previa-big {
     width: 80%;
+    height: 40vw;
+  }
+
+  .previaItem {
+    width : 60vw;
     height: 40vw;
   }
 
@@ -387,13 +411,6 @@ address>a {
 
   .row {
     margin-top: 0;
-  }
-
-
-  .previa {
-    width: 60vw;
-    height: 170px;
-    margin: 30px auto;
   }
 
   .previa-big {
