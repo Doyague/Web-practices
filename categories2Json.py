@@ -1,7 +1,7 @@
 import os
 
-x = 1
-contenido = os.listdir("C:/Users/Jony/Desktop/Web-practices/rsc/pictures/supermarket/productCat")
+x = 0
+contenido = os.listdir("C:/Users/Jony/Desktop/Web-practices/rsc/pictures/supermarket/itemCat")
 categoryList = []
 singleCategory = {"id": "", "short_name": "", "name": "", "url": ""}
 

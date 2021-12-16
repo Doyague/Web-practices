@@ -28,6 +28,9 @@ header {
   /* background-attachment: fixed; */
   background-size: cover;
 }
+#home {
+  text-decoration: none;
+}
 
 .header h1 {
   margin-top: -10px;
@@ -84,6 +87,10 @@ text-shadow: 5px 5px 5px black;
   margin-left: auto;
 }
 
+.columnaItems>.row{
+  width: 100%;
+}
+
 a {
   font-size: 2rem;
   font-weight: bolder;
@@ -104,7 +111,7 @@ a:hover{
 }
 
 .previa {
-  width: 25vw;
+  /* width: 25vw; */
   height: 20vw;
   margin: 60px auto;
 
@@ -119,9 +126,17 @@ a:hover{
 
 }
 
+.previaItem {
+  height: 15vw;
+  margin: 60px auto;
 
 
-.previa, .previa-big {
+}
+
+
+
+
+.previa, .previa-big, .previaItem {
   position: relative;
   border: 4px solid black;
   border-radius: 25px 0 25px 0;
@@ -141,7 +156,7 @@ a:hover{
 
 }
 
-.previa img, .previa-big img {
+.previa img, .previa-big img, .previaItem img {
   width: 100%;
   height: 100%;
   position: absolute;
